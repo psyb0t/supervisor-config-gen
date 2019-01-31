@@ -42,7 +42,7 @@ command=/home/not-root/supervisor-config-gen/shitty-app/run.sh
 directory=/home/not-root/supervisor-config-gen/shitty-app
 process_name=%(program_name)s
 numprocs=1
-user=bw
+user=not-root
 autostart=true
 autorestart=true
 
