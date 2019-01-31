@@ -9,6 +9,19 @@ create generic supervisor config in the current directory.
 % cp supervisor-config-gen/supervisor-config-gen /usr/local/bin/supervisor-config-gen
 ```
 
+or
+
+```
+% curl https://raw.githubusercontent.com/psyb0t/supervisor-config-gen/master/supervisor-config-gen > /usr/local/bin/supervisor-config-gen
+% chmod +x /usr/local/bin/supervisor-config-gen
+```
+
+...or...
+
+```
+% curl --silent https://raw.githubusercontent.com/psyb0t/supervisor-config-gen/master/supervisor-config-gen | bash
+```
+
 ## example usage
 
 ```
