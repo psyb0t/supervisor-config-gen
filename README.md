@@ -19,7 +19,8 @@ or
 ...or...
 
 ```
-% curl --silent https://raw.githubusercontent.com/psyb0t/supervisor-config-gen/master/supervisor-config-gen | bash
+% echo "alias supervisor-config-gen='curl --silent https://raw.githubusercontent.com/psyb0t/supervisor-config-gen/master/supervisor-config-gen | bash'" >> ~/.bashrc
+% source ~/.bashrc
 ```
 
 ## example usage

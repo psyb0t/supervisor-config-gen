@@ -10,6 +10,13 @@ directory=$current_dir
 process_name=%(program_name)s
 numprocs=1
 user=$(whoami)
+
+stopsignal=TERM
+stopwaitsecs=10
+stopasgroup=true
+
+killasgroup=true
+
 autostart=true
 autorestart=true
 
@@ -19,6 +26,7 @@ redirect_stdout=true
 stdout_logfile=$HOME/logs/supervisord/%(program_name)s-out.log
 stdout_logfile_maxbytes=50MB
 stdout_logfile_backups=10
+
 stderr_logfile=$HOME/logs/supervisord/%(program_name)s-err.log
 stderr_logfile_maxbytes=50MB
 EOF
