@@ -44,6 +44,13 @@ directory=/home/not-root/supervisor-config-gen/shitty-app
 process_name=%(program_name)s
 numprocs=1
 user=not-root
+
+stopsignal=TERM
+stopwaitsecs=10
+stopasgroup=true
+
+killasgroup=true
+
 autostart=true
 autorestart=true
 
