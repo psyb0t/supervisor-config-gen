@@ -3,7 +3,8 @@ current_dir=$(pwd)
 program_name=$(basename "$current_dir")
 supervisor_config_fpath=$(printf "%s-supervisor.conf" "$program_name")
 
-supervisor_config=$(cat <<EOF
+supervisor_config=$(
+    cat <<EOF
 [program:$program_name]
 command=$current_dir/run.sh
 directory=$current_dir
@@ -32,5 +33,5 @@ stderr_logfile_maxbytes=50MB
 EOF
 )
 
-echo "$supervisor_config" > $supervisor_config_fpath && \
-echo "Generated $supervisor_config_fpath"
+echo "$supervisor_config" >"$supervisor_config_fpath" &&
+    echo "Generated $supervisor_config_fpath"
