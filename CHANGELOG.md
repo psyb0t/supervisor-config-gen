@@ -2,6 +2,11 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.0.4 — 2026-07-27
+
+- Fixed the README's Codex subsection, which was missing its install command. It now reads `codex plugin add supervisor-config-gen@psyb0t` right after the marketplace-add line.
+- Clarified that the skill's invocation form depends on how it was picked up: installed via the marketplace it's `$supervisor-config-gen:supervisor-config-gen`; auto-detected from a repo's own `.agents/skills/` it's plain `$supervisor-config-gen`.
+
 ## v1.0.3 — 2026-07-27
 
 - Added Claude Code and Codex plugin manifests (`.agents/.claude-plugin/plugin.json`, `.agents/.codex-plugin/plugin.json`) so the existing ClawHub skill installs natively in both clients via the shared `psyb0t/agents` marketplace.

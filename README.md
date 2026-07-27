@@ -140,9 +140,10 @@ claude plugin install supervisor-config-gen@psyb0t
 
 ```bash
 codex plugin marketplace add psyb0t/agents
+codex plugin add supervisor-config-gen@psyb0t
 ```
 
-Codex also picks the skill up automatically in any repo containing `.agents/skills/`, and invokes it as `$supervisor-config-gen`.
+Installed via the marketplace, the skill invokes as `$supervisor-config-gen:supervisor-config-gen`. Codex also picks the skill up automatically with no install in any repo containing `.agents/skills/`, where it invokes as plain `$supervisor-config-gen`.
 
 ### OpenClaw
 

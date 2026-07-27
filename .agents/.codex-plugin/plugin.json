@@ -1,6 +1,6 @@
 {
   "name": "supervisor-config-gen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bash script that generates a Supervisor (supervisord) [program:*] config file from the current directory with zero CLI flags, args, or env vars.",
   "author": { "name": "psyb0t", "url": "https://github.com/psyb0t" },
   "homepage": "https://github.com/psyb0t/supervisor-config-gen",
