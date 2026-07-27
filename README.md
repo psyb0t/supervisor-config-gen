@@ -1,5 +1,8 @@
 # supervisor-config-gen
 
+[![version](https://raw.githubusercontent.com/psyb0t/supervisor-config-gen/badges/version.svg)](https://github.com/psyb0t/supervisor-config-gen/releases)
+[![license](https://raw.githubusercontent.com/psyb0t/supervisor-config-gen/badges/license.svg)](LICENSE)
+
 supervisor-config-gen is a bash script that simplifies the process of creating generic configuration files for Supervisor, allowing developers to focus on building software.
 
 ## Prerequisites
