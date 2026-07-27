@@ -1,5 +1,6 @@
 # supervisor-config-gen
 
+[![CI](https://github.com/psyb0t/supervisor-config-gen/actions/workflows/pipeline.yml/badge.svg?branch=master)](https://github.com/psyb0t/supervisor-config-gen/actions/workflows/pipeline.yml)
 [![version](https://raw.githubusercontent.com/psyb0t/supervisor-config-gen/badges/version.svg)](https://github.com/psyb0t/supervisor-config-gen/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/supervisor-config-gen/badges/license.svg)](LICENSE)
 
