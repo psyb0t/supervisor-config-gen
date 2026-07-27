@@ -124,3 +124,30 @@ stderr_logfile_maxbytes=50MB
 ```
 
 With supervisor-config-gen, you can create standardized Supervisor configuration files quickly and easily - Good luck with your coding!
+
+## Agent integrations
+
+The [skill](.agents/skills/supervisor-config-gen) works in any agent that reads `.agents/skills/`, and installs natively in the clients below.
+
+### Claude Code
+
+```bash
+claude plugin marketplace add psyb0t/agents
+claude plugin install supervisor-config-gen@psyb0t
+```
+
+### Codex
+
+```bash
+codex plugin marketplace add psyb0t/agents
+```
+
+Codex also picks the skill up automatically in any repo containing `.agents/skills/`, and invokes it as `$supervisor-config-gen`.
+
+### OpenClaw
+
+The skill is published to ClawHub on every release:
+
+```bash
+openclaw skills install @psyb0t/supervisor-config-gen
+```

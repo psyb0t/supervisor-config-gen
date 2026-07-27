@@ -1,0 +1,15 @@
+{
+  "name": "supervisor-config-gen",
+  "description": "Bash script that generates a Supervisor (supervisord) [program:*] config file from the current directory with zero CLI flags, args, or env vars.",
+  "author": { "name": "psyb0t", "url": "https://github.com/psyb0t" },
+  "homepage": "https://github.com/psyb0t/supervisor-config-gen",
+  "license": "WTFPL",
+  "keywords": [
+    "supervisor",
+    "supervisord",
+    "process-manager",
+    "config-generator",
+    "bash",
+    "devops"
+  ]
+}
