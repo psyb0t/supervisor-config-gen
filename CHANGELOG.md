@@ -2,6 +2,10 @@
 
 All notable changes per release. Versions follow [semver](https://semver.org).
 
+## v1.0.6, 2026-10-10
+
+Documentation only. The README's agent integrations section names [peen](https://github.com/psyb0t/peen) as an example of an agent that reads `.agents/skills/`.
+
 ## v1.0.5 — 2026-08-01
 
 CI/infrastructure only. No code in this repo changed — the whole diff since v1.0.4 is under `.github/workflows/`.
